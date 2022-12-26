@@ -31,4 +31,3 @@ if (score === 5) {
 } else {
   console.log("Looks like you don't know him very well 😅")
 }
-
