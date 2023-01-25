@@ -10,7 +10,7 @@ console.log("----------------------------");
 function play(question, answer) {
   var userAnswer = readlineSync.question(question);
 
-  if (userAnswer === answer) {
+  if (userAnswer.toUpperCase === answer.toUpperCase) {
     console.log("You are right 😉");
     score = score + 1;
   } else {
